@@ -25,8 +25,12 @@ models:
       +schema: SILVER
       +materialized: view
 
+      Intermediate:
+        +schema: SILVER
+        +materialized: table
+
     Gold:
-      +schema: SILVER
+      +schema: Gold
       +materialized: table
 
       
