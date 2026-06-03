@@ -1,0 +1,23 @@
+version: 2
+models:
+  - name: Sil_Users
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+          
+  - name: Sil_merchants
+    columns:
+      - name: merchant_id
+        tests:
+          - unique
+          - not_null
+          
+  - name: Sil_Transactions
+    columns:
+      - name: tx_id
+        tests:
+          - unique
+          - not_null
+          

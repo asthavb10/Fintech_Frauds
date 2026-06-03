@@ -1,0 +1,19 @@
+select
+    USER_ID,
+    NAME,
+    GENDER,
+    AGE,
+    CITY,
+    REGION,
+    REGISTRATION_DATE,
+    PRIMARY_APP,
+    PREFERRED_DEVICE,
+    CREDIT_SCORE,
+    MONTHLY_INCOME_UZS,
+    IDENTITY_VERIFIED,
+    HISTORICAL_TX_COUNT,
+    DBT_SCD_ID,
+    DBT_UPDATED_AT,
+    DBT_VALID_FROM,
+    DBT_VALID_TO
+from {{ ref('users_snapshot') }}
