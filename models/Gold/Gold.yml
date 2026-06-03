@@ -1,0 +1,45 @@
+version: 2
+
+models:
+
+  - name: Dim_Users
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+
+  - name: Dim_Merchants
+    columns:
+      - name: merchant_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_transactions
+    columns:
+      - name: tx_id
+        tests:
+          - unique
+          - not_null
+
+  - name: Fact_Frauds
+    columns:
+      - name: tx_id
+        tests:
+          - unique
+          - not_null
+
+  - name: Mart_Users
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+
+  - name: mart_merchant
+    columns:
+      - name: merchant_id
+        tests:
+          - unique
+          - not_null
