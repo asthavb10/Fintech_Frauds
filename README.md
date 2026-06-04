@@ -1,7 +1,7 @@
-*# End-to-End Fintech Fraud Analytics using Snowflake, dbt and Power BI*
+***# End-to-End Fintech Fraud Analytics using Snowflake, dbt and Power BI***
 
-**This project implements a modern data analytics pipeline for fraud detection and risk analysis in a fintech environment.
-The solution ingests transaction, user, and merchant data from AWS S3 into Snowflake, transforms it using dbt, tracks historical user changes through SCD Type 2 snapshots, and delivers business-ready analytics marts for Power BI reporting.**
+This project implements a modern data analytics pipeline for fraud detection and risk analysis in a fintech environment.
+The solution ingests transaction, user, and merchant data from AWS S3 into Snowflake, transforms it using dbt, tracks historical user changes through SCD Type 2 snapshots, and delivers business-ready analytics marts for Power BI reporting.
 --------------------------------------------------------------------------------------------
 ## Tech Stack
 - AWS S3
